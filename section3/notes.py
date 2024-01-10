@@ -73,4 +73,28 @@
         d e i - int
         f - float
         x e X - hexadecimal (ABCDEF0123456789)
+
+        Exemplo:
+            nome = 'Arthur'
+            preco = 100.50
+            variavel = '%s, o preço é R$ %f' % (nome, preco)
+            print(variavel) -> Arthur, o preço é R$ 100.50
+
+            Obs: é possível mudar o número de casas decimais após a % (%.2f ou %08X, por exemplo).
+
+    F-strings:
+        Aula 45 mostra mais ferramentas.
+        
+    Fatiamento de strings:
+        Fatiamento [i:f:p] [::] -> i: inicio, f: final, p: passo
+
+        str = 'Ola mundo'
+        print(str[4:]) -> imprime 'mundo'
+        print(str[4:7]) -> imprime 'mun' (indice final não é incluído)
+        print(str[0:9:2]) -> imprime 'Oamno'
+        print(str[::-1]) -> imprime 'odnum alO'
+
+        Obs.: a função len retorna a qtd 
+        de caracteres da string
+
 '''

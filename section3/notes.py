@@ -97,4 +97,7 @@
         Obs.: a função len retorna a qtd 
         de caracteres da string
 
+    Try & Except:
+        Aula 49 introduz.
+
 '''

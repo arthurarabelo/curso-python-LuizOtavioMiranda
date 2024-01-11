@@ -100,4 +100,25 @@
     Try & Except:
         Aula 49 introduz.
 
+    Identidade de um valor na memória:
+        v1 = 'a'
+        id(a) -> identidade da variável v1
+
+    is e is not:
+        -> Geralmente utilizado com None
+        is -> ==
+        is not -> !=
+
+    Tipos built-in: 
+        -> Tipos embutidos no python
+        -> Documentação do python: https://docs.python.org/pt-br/3/library/stdtypes.html
+        -> Tipos imutáveis: str, int, float, bool
+
+    Estruturas de repetição:
+        while condicao:
+            ...
+            if condicao2:
+                continue
+            if condicao3:
+                break
 '''

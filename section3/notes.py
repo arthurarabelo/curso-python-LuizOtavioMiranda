@@ -121,4 +121,49 @@
                 continue
             if condicao3:
                 break
+                
+       -----------------
+        str  =  'Arthur'
+        for letra in str:
+            print(letra)
+
+        -> range:
+            range(start, stop, step)
+        -> for + range:
+            numeros = range(5, 10)
+            for numero in numeros:
+                print(numero) -> imprime do 5 até o 9
+        -> iterador e iterável:
+            Iterável -> str, range, etc (__iter__)
+            Iterador -> quem sabe entregar um valor por vez
+            next -> me entregue o próximo valor
+            iter -> me entregue seu iterador
+
+            -> Funcionamento do for:
+
+            texto = 'Luiz'  # iterável
+
+            # iterador = iter(texto)  # iterator
+
+            # while True:
+            #     try:
+            #         letra = next(iterador)
+            #         print(letra)
+            #     except StopIteration:
+            #         break
+
+    List:
+        lista = [123, True, 'Arthur', 4.5, ['Outra lista']]
+        print(lista[2]) -> imprime 'Arthur'
+        lista[2] = 'Emily' -> altera o valor do índice 2 da lista
+
+        -> Tipo mutável
+        -> Suporta vários valores de qualquer tipo
+        -> del lista[2] - deleta valor da lista e reorganiza os índices
+        -> lista.append(50) - adiciona 50 ao final da lista
+        -> lista.pop() - remove o último elemento da lista e retorna o valor dele
+        -> lista.pop(i) - remove o i-ésimo elemento da lista e retorna o valor dele
+        -> lista.clear() - remove todos os elementos da lista
+        -> lista.insert(i, v) - insere no i-ésimo índice da lista um elemento de valor v 
+
 '''

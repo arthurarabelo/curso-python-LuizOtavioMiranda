@@ -153,6 +153,7 @@
             #         break
 
     List:
+        type: list
         lista = [123, True, 'Arthur', 4.5, ['Outra lista']]
         print(lista[2]) -> imprime 'Arthur'
         lista[2] = 'Emily' -> altera o valor do índice 2 da lista
@@ -164,6 +165,36 @@
         -> lista.pop() - remove o último elemento da lista e retorna o valor dele
         -> lista.pop(i) - remove o i-ésimo elemento da lista e retorna o valor dele
         -> lista.clear() - remove todos os elementos da lista
-        -> lista.insert(i, v) - insere no i-ésimo índice da lista um elemento de valor v 
+        -> lista.insert(i, v) - insere no i-ésimo índice da lista um elemento de valor
+        -> É possível fazer a concatenação de duas ou mais listas com o operador +
+        -> O método extend concatena listas mexendo diretamente na lista que o chama
+        -> O for funciona do mesmo modo com listas
+
+    Cuidados com dados mutáveis:
+        Exemplo:
+            lista_a = ['Arthur', 'Emily']
+            lista_b = lista_a 
+
+            -> As duas variáveis irão compartilhar o mesmo valor na memória: se eu alterar
+               uma delas, ambas são alteradas
+            -> O método lista_a.copy() retorna uma nova lista igual a lista_a, criando duas listas separadas
+    
+    Desempacotamento:
+        nomes = ['Arthur', 'Emily', 'Vitor']
+        nome1, nome2, nome3 = nomes]
+        nome1, nome2, nome3 = ['Arthur', 'Emily', 'Vitor']
+
+        -> pode-se pegar apenas 1 dos valores:
+            nome1, *resto = ['Arthur', 'Emily', 'Vitor'] - resto vai ser outra lista com o restante dos valores
+            É convenção chamar uma variável inútil de _ : nome1, *_ = ['Arthur', 'Emily', 'Vitor']
+            _, nome2, *_ = ['Arthur', 'Emily', 'Vitor']
+
+    Tuplas:
+        Uma tupla é uma lista imutável.
+        type: tuple
+
+        tupla = 'Maria', 'José', 'Jesus'
+        tupla = ('Maria', 'José', 'Jesus')
+
 
 '''

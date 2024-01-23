@@ -196,5 +196,25 @@
         tupla = 'Maria', 'José', 'Jesus'
         tupla = ('Maria', 'José', 'Jesus')
 
+    Enumerate:
+        nomes = ['Arthur', 'Emily', 'Vitor']
+        lista_enumerada = enumerate(nomes) -> enumerate object (iterator) - next(lista_enumerada) é (0, 'Arthur')
+        
+        -> um objeto enumerate é basicamente um ponteiro: depois de percorrer toda a lista enumerada, o
+           ponteiro aponta para outra caixinha de memória que não seja aquelas que guardam os valores da lista.
+        -> enumerate(nomes) aponta para uma caixinha de memória que funciona como um cabeçalho para a lista enumerada.
+        -> pode-se converter um enumerate object para uma lista ou uma tupla.
+
+    Imprecisão de ponto flutuante:
+        -> pode-se contornar esse problema usando f-strings ou a função round:
+            round(numero, numero de casas decimais) - float type
+        -> módulo decimal:
+            import decimal
+            numero = decimal.Decimal('float number') - argumento é passado como string
+
+    Split, Join, Strip (Aula 93):
+        split - divide uma string (list)
+        join - une uma string
+        strip - corta os espaços do começo e/ou do final de uma string
 
 '''

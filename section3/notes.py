@@ -217,4 +217,7 @@
         join - une uma string
         strip - corta os espaços do começo e/ou do final de uma string
 
+    Operação ternária (condicional de uma linha):
+        <valor> if <condicao> else <outro valor>
+
 '''

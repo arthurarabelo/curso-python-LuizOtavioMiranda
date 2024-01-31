@@ -23,19 +23,23 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
+import re
 
 cpfGiven = input('Digite o CPF: ')
-cpf = ''
+cpf = re.sub(r'[^0-9]',
+             '',
+             cpfGiven
+            )
 cpf9Digits = ''
 rangeMults1stDigit = range(10, 1, -1)
 result1 = 0
 firstDigit = 0
 
-for char in cpfGiven:
-    if char.isdigit():
-        cpf += char
-    else:
-        continue
+# for char in cpfGiven:
+#     if char.isdigit():
+#         cpf += char
+#     else:
+#         continue
 
 cpf9Digits = cpf[:9]
 

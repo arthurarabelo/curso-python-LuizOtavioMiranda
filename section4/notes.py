@@ -23,4 +23,11 @@ Argumentos nomeados e não nomeados(posicional) em funções:
 
     -> *args empacota os valores em uma tupla (iterável)
     obs.: o código acima só serve para argumentos não nomeados
+
+Higher Order Functions:
+    Funções que podem receber e/ou retornar outras funções.
+
+First-Class Functions:
+    Funções que são tratadas como outros tipos de dados comuns (strings, inteiros, etc...).
+
 """

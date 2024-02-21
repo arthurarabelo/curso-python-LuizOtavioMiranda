@@ -30,4 +30,36 @@ Higher Order Functions:
 First-Class Functions:
     Funções que são tratadas como outros tipos de dados comuns (strings, inteiros, etc...).
 
+Dict / Dicionário:
+    -> Pares de chave e valor.
+    -> As chaves podem ser criadas com qualquer tipo imutável.
+    -> Os dicionários em si são mutáveis, como as listas.
+
+    Exemplo:
+        pessoa = {
+            'nome': 'Arthur',
+            'sobrenome': 'Araújo Rabelo',
+        }
+
+        ou
+
+        pessoa = dict(nome='Arthur', sobrenome: 'Araújo Rabelo')
+
+        print(pessoa['nome']) -> imprime Arthur
+        pessoa['idade'] = 20 -> cria nova chave no dicionário
+        del pessoa['idade'] -> apaga chave
+        pessoa.get('idade') -> se a chave existe, o método get retorna o valor dela; se não existe, retorna None por padrão. 
+
+    Métodos úteis dos dicionários em Python:
+        len - quantas chaves
+        keys - iterável com as chaves
+        values - iterável com os valores
+        items - iterável com chaves e valores
+        setdefault - adiciona valor se a chave não existe
+        copy - retorna uma cópia rasa (shallow copy)
+        get - obtém uma chave
+        pop - Apaga um item com a chave especificada (del)
+        popitem - Apaga o último item adicionado
+        update - Atualiza um dicionário com outro
+
 """

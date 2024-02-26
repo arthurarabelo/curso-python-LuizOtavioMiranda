@@ -62,4 +62,29 @@ Dict / Dicionário:
         popitem - Apaga o último item adicionado
         update - Atualiza um dicionário com outro
 
+Set (conjunto):
+    Sets em Python são mutáveis, porém aceitam apenas tipos imutáveis como valor interno.
+
+    s1 = set() -> vazio
+    s1 = {'Luiz', 1, 2, 3} -> com dados
+    
+    - Sets são eficientes para remover valores duplicados de iteráveis.
+    - Não aceitam valores mutáveis;
+    - Seus valores serão sempre únicos;
+    - não tem índexes;
+    - não garantem ordem;
+    - são iteráveis (for, in, not in)
+
+    Métodos úteis:
+        - add: adiciona *um* valor ao set
+        - update: adiciona vários valores ao set.
+        - clear: limpa o set
+        - discard: descarta um determinado valor do set
+
+    Operadores úteis:
+        união | união (union) - Une
+        intersecção & (intersection) - Itens presentes em ambos
+        diferença - Itens presentes apenas no set da esquerda
+        diferença simétrica ^ - Itens que não estão em ambos
+
 """

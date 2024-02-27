@@ -87,4 +87,22 @@ Set (conjunto):
         diferença - Itens presentes apenas no set da esquerda
         diferença simétrica ^ - Itens que não estão em ambos
 
+Função lambda:
+    A função lambda é uma função como qualquer
+    outra em Python. Porém, são funções anônimas
+    que contém apenas uma linha. Ou seja, tudo
+    deve ser contido dentro de uma única
+    expressão.
+
+    Exemplo:
+        lista = [
+            {'nome': 'Luiz', 'sobrenome': 'miranda'},
+            {'nome': 'Maria', 'sobrenome': 'Oliveira'},
+            {'nome': 'Daniel', 'sobrenome': 'Silva'},
+            {'nome': 'Eduardo', 'sobrenome': 'Moreira'},
+            {'nome': 'Aline', 'sobrenome': 'Souza'},
+        ]
+
+        l1 = sorted(lista, key=lambda item: item['nome'])
+        l2 = sorted(lista, key=lambda item: item['sobrenome'])
 """

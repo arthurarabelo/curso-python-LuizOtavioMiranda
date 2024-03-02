@@ -105,4 +105,13 @@ Função lambda:
 
         l1 = sorted(lista, key=lambda item: item['nome'])
         l2 = sorted(lista, key=lambda item: item['sobrenome'])
+
+Empacotamento e desempacotamento de dicts, args e kwargs usando dicionários: aula 135
+
+List comprehension:
+    É uma forma rápida de criar listas utilizando iteráveis.
+
+    Exemplo: lista = [numero for numero in range(10)] -> gera uma lista com números de 0 a 9
+
+
 """

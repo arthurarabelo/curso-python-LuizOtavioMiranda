@@ -113,5 +113,10 @@ List comprehension:
 
     Exemplo: lista = [numero for numero in range(10)] -> gera uma lista com números de 0 a 9
 
+Dict e set comprehension:
+    Aula 141
+
+isinstance(valor, classe) -> diz se um objeto é instância de determinada classe (str, int, float)
+
 
 """

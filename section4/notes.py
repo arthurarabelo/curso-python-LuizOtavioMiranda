@@ -118,5 +118,18 @@ Dict e set comprehension:
 
 isinstance(valor, classe) -> diz se um objeto é instância de determinada classe (str, int, float)
 
+Generator: aula 146
+
+Generator functions:
+
+    def genfunction(parameter):
+        yield 1 # Pausa a execução da função em 1
+        yield 2 # Pausa a execução da função em 2
+
+    print(next(gen)) -> imprime 1
+    print(next(gen)) -> imprime 2
+
+    yield from: aula 148
+
 
 """

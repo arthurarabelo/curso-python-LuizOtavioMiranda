@@ -133,7 +133,7 @@ Generator functions:
 
 Finally:
 
-    Em blocos try-except, a cláusura finally sempre será executada.
+    Em blocos try-except, a cláusula finally sempre será executada.
 
 Raise:
 

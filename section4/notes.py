@@ -131,5 +131,23 @@ Generator functions:
 
     yield from: aula 148
 
+Finally:
+
+    Em blocos try-except, a cláusura finally sempre será executada.
+
+Raise:
+
+    Lança exceções (parecido com o throw)
+
+Módulos:
+
+    import sys
+    print(sys.platform)
+
+    from sys import exit, platform
+    print(platform)
+
+    import sys as sistema
+    print(sistema.platform)
 
 """
